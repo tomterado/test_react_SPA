@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tomterado/test_react_SPA/precache-manifest.7414fad7e9363babd41cf9ff494c7219.js"
+  "/test_react_SPA/precache-manifest.b18299e9fb148f10d5fff710cfe12845.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tomterado/test_react_SPA/index.html", {
+workbox.routing.registerNavigationRoute("/test_react_SPA/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
